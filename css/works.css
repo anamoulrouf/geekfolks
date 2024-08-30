@@ -1,0 +1,155 @@
+/* header (hero) Area */
+
+header{
+    overflow: hidden;
+    background: #14151848;
+    width: 100%;
+    max-width: none;
+    min-height: 64vh;
+    margin: 0%;
+    border-radius: 0;
+}
+header .header-content-wrap{
+    height: 56vh;
+}
+header .title-hero{}
+header .short-description{}
+header .h2.sub-title-hero{}
+header .btn{}
+header .header-img{}
+header .header-img img{}
+header.header-content .header-content-block{}
+
+header .header-video{
+    width: 100%;
+    height: 64vh;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    border-radius:0rem;
+    overflow: hidden;
+}
+header .header-video video{
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 960px){
+    header .header-img{}
+}
+
+header.header-content .header-content-block br.line-break{
+    display: none;
+}
+
+
+/*@media (max-width: 767px){
+header .header-video video {
+height: 100%;
+    width: 177.77777778vh; 
+    min-width: 100%;
+    min-height: 56.25vw; 
+}
+}*/
+
+
+
+@media only screen and (min-width: 1401px) and (max-width: 1920px) {
+    header{}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    header .title-hero{
+        font-size: 5.5rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.75rem;
+    }
+    /*header .header-video video{
+        width: 100%;
+        height: auto;
+    }*/
+    header.header-content .header-content-block{
+        margin-top: -4.5rem;
+        padding-top: 2rem;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px){
+    /*header .header-video video{
+        width: 100%;
+        height: auto;
+    }*/
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header .title-hero{
+        font-size: 4.7rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.5rem;
+    }
+    header, header .header-content-wrap, header .header-video{
+        height: 72vh;
+    }
+    /*header .header-video video{
+        width: auto;
+        height: 100%;
+    }*/
+    header.header-content .header-content-block{
+        margin-top: -4.5rem;
+        padding-top: 2rem;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+    /*header .header-video video{
+        width: 100%;
+        height: auto;
+    }*/
+}
+
+@media only screen and (min-width: 641px)  and (max-width: 768px) {
+    header .title-hero{
+        font-size: 4rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.25rem;
+    }
+    
+    header, header .header-content-wrap, header .header-video{
+        height: 72vh;
+    }
+    /*header .header-video video{
+        width: auto;
+        height: 100%;
+    }*/
+}
+@media only screen and (min-width: 200px) and (max-width: 640px) {
+    header.header-content .header-content-block{
+        margin-top: -2.5rem;
+        padding-top: 2rem;
+    }
+    header.header-content .header-content-block br.line-break{
+        display: block;
+    }
+    header .title-hero{
+        font-size: 2.75rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.25rem;
+    }
+    header, header .header-content-wrap, header .header-video{
+        height: 64vh;
+    }
+    /*header .header-video video{
+        width: auto;
+        height: 100%;
+    }*/
+    section#services, section#services-dev, section#services-ux, section#services-ai, section#services-app, section#services-brand{
+        text-align: center;
+    }
+    section#services .services-item, section#services-dev .services-item, section#services-ux .services-item, section#services-ai .services-item, section#services-app .services-item, section#services-brand .services-item{
+        padding: 0.5rem 2rem !important;
+    }
+}

@@ -1,0 +1,125 @@
+/* header (hero) Area */
+
+header{
+    overflow: hidden;
+    background: #141518cc;
+    width: 100%;
+    max-width: none;
+    height: 100vh;
+    margin: 0%;
+    border-radius: 0;
+}
+header .header-content-wrap{
+    height: 100vh;
+}
+header .title-hero{}
+header .short-description{}
+header .h2.sub-title-hero{}
+header .btn{}
+header .header-img{}
+header .header-img img{}
+header.header-content .header-content-block{}
+
+header .header-video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    border-radius:0rem;
+    overflow: hidden;
+}
+header .header-video video{
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+header.header-content .header-content-block br.line-break{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1401px) and (max-width: 1920px) {
+    header{}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    header .title-hero{
+        font-size: 5.5rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.75rem;
+    }
+    header .header-video video{
+        width: auto;
+        height: 100%;
+    }
+    header.header-content .header-content-block{
+        margin-top: -4.5rem;
+        padding-top: 2rem;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px){
+    header .header-video video{
+        width: auto;
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header .title-hero{
+        font-size: 4.7rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.5rem;
+    }
+    header .header-video video{
+        width: auto;
+        height: 100%;
+    }
+    header.header-content .header-content-block{
+        margin-top: -4.5rem;
+        padding-top: 2rem;
+    }
+}
+@media only screen and (min-width: 641px)  and (max-width: 768px) {
+    header .title-hero{
+        font-size: 4rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.25rem;
+    }
+    header .header-video video{
+        width: auto;
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 640px) {
+    header.header-content .header-content-block{
+        margin-top: -2.5rem;
+        padding-top: 2rem;
+    }
+    header.header-content .header-content-block br.line-break{
+        display: block;
+    }
+    header .title-hero{
+        font-size: 2.75rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.25rem;
+    }
+    header .header-video video{
+        width: auto;
+        height: 100%;
+    }
+}
