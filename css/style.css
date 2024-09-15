@@ -503,7 +503,7 @@ hr{
 
 
 .btn-primary{
-    background: linear-gradient(135deg, #E70045, #E403B3, #7400E8, #003FFF, #00CEEC);
+    background: linear-gradient(135deg, #003FFF, #089CFF, #40ED99, #089CFF, #1905B0);
     background-size: 1200%;
     animation: anime 16s linear infinite;
     -webkit-animation: anime 16s linear infinite;
@@ -519,7 +519,7 @@ hr{
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
     background: #40ED99;
     color: #ffffff;
-    background: linear-gradient(135deg, #003FFF, #00CEEC, #003FFF);
+    background: linear-gradient(135deg, #003FFF, #40ED99, #003FFF);
     background-size: 200%;
     animation: anime 16s linear infinite;
     -webkit-animation: anime 16s linear infinite;
@@ -1009,7 +1009,7 @@ section .sec-lg-title p {
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     text-transform: uppercase;
     font-size: 12rem;
-    background-image: linear-gradient(135deg, #E70045, #E403B3, #7400E8, #003FFF, #00CEEC);
+    background-image: linear-gradient(135deg, #003FFF, #089CFF, #40ED99, #089CFF, #1905B0);
     background-size: 1200%;
     animation: anime 16s linear infinite;
     -webkit-animation: anime 16s linear infinite;
@@ -1241,6 +1241,9 @@ footer a.link:hover{
     color: #40ED99;
 }
 
+footer .social-icons a{
+    color: #ffffff;
+}
 footer .social-icons a:hover { 
     color: #ffffff;
 }
